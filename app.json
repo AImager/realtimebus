@@ -1,14 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/busstop/index",
     "pages/star/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#7A7E83",
@@ -18,16 +18,17 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API.png",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index.png",
         "text": "公交"
       },
       {
         "pagePath": "pages/star/index",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API.png",
+        "iconPath": "image/star.png",
+        "selectedIconPath": "image/star.png",
         "text": "收藏"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
